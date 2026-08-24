@@ -1,0 +1,185 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.main{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:5%;
+}
+.txt{
+    display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:8px;
+  margin-bottom: 3em;
+}
+.txt h2{
+  font-size: 64px;
+  margin:auto;
+  color:greenyellow;
+}
+.txt p{
+  font-size: 1em;
+  margin:auto;
+  color:white;
+}
+.CandL{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.CandL h2{
+  font-size: 1.2em;
+  color:white;
+}
+.Lists{
+max-width:250px;
+display:inline-block;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 1.5em;
+background-color: white;
+margin-right:1em;
+border-radius: 1em;
+margin-bottom:1em;
+}
+
+.Lists button{
+  background-color: greenyellow;
+  padding-top:1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right:2em;
+  cursor:pointer;
+  border: 1.5px solid hsl(0, 0%, 10%);
+  border-radius: 2em;
+}
+
+.Lists button:hover{
+   background-color: hsl(84, 96%, 72%);
+}
+
+.Lists button:focus{
+   background-color: rgb(133, 216, 9);
+}
+
+.img{
+  width:100%;
+  height:100% ;
+}
+
+.search{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.searchInput{
+  padding:1em;
+  width:250px;
+  border-radius: 0.5em;
+  border:none;
+}
+
+.searchInput:focus{
+border: 1px solid greenyellow;
+outline:none;
+}
+
+.searchInput::placeholder{
+color: gray;
+}
+
+.submitBtn{
+  background-color: greenyellow;
+  padding:0.5em;
+  border:none;
+  cursor:pointer;
+  border-radius: 0.5em;
+  width:80px;
+}
+.submitBtn:hover{
+   background-color: hsl(84, 96%, 72%);
+}
+
+.submitBtn:focus{
+   background-color: rgb(133, 216, 9);
+}
+
+.viewCartArea{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.viewCartArea button{
+  background-color: greenyellow;
+  border-radius: 2em;
+  border: none;
+  padding-top:1em;
+  padding-bottom:1em;
+  padding-left:2em;
+  padding-right:2em;
+  cursor:pointer;
+}
+
+.viewCartArea button:hover{
+   background-color: hsl(84, 96%, 72%);
+}
+
+.viewCartArea button:focus{
+   background-color: rgb(133, 216, 9);
+}
+
+.Navbar a {
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.Navbar a.active{
+  color:greenyellow;
+} 
+.Navbar .cart:focus{
+  color:greenyellow;
+}
+.Navbar .cart{
+   color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+ }  
+
+.Navbar{
+  display:flex;
+  flex-direction: row;
+  gap: 2em;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  border-bottom: 0.5px solid hsl(0, 0%, 30%);
+  padding-bottom: 1em;
+}
+
+.EmptyCart h2{
+  color:white;
+  text-align: center;
+}
+
+.EmptyCart p{
+  color:white;
+  text-align: center;
+}
+
+.cartno{
+  color:white;
+  font-size: 1em;
+  font-weight: 300;
+}
+.cartno span{
+  color:greenyellow;
+}
