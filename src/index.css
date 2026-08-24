@@ -100,6 +100,7 @@ color: gray;
   cursor:pointer;
   border-radius: 0.5em;
   width:80px;
+  margin-left:1em;
 }
 .submitBtn:hover{
    background-color: hsl(84, 96%, 72%);
